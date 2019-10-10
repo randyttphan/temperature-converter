@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  background-color: gray;
+}
+
+.temperature {
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  text-align: center;
+  background: black;
+  color: white;
+  font-size: 100px;
+  height: 33.3vh;
+}
