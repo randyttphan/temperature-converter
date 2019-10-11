@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Asap&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Asap, sans-serif;
 }
 
 body,
@@ -18,7 +21,25 @@ input {
   width: 100%;
   text-align: center;
   background: black;
-  color: white;
+  color: rgb(226, 226, 226);
   font-size: 100px;
   height: 33.3vh;
+  outline: none;
+}
+
+/* ::placeholder will only target on Chrome browsers so if needed for other 
+browserrs, they are listed below this. */
+::-webkit-input-placeholder {
+  /* adding webkit-input works on chrome, opera, safari */
+  color: #333333;
+}
+
+::-moz-placeholder {
+  /* firefox */
+  color: #333333;
+}
+
+::-ms-input-placeholder {
+  /* edge */
+  color: #333333;
 }
